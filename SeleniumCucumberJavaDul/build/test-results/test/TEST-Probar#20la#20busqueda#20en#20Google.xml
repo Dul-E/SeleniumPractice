@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Probar la busqueda en Google" tests="1" skipped="0" failures="1" errors="0" timestamp="2022-09-15T19:24:34" hostname="CMLE2107-0042.local" time="7.279">
+  <properties/>
+  <testcase name="As a user I enter Search criteria in Google" classname="Probar la busqueda en Google" time="7.279">
+    <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
+	at pages.BasePage.Find(BasePage.java:48)
+	at pages.BasePage.write(BasePage.java:56)
+	at pages.GooglePage.enterSearchCText(GooglePage.java:20)
+	at steps.GoogleSteps.enterSearchCriteria(GoogleSteps.java:20)
+	at ✽.I enter a search criteria(file:///Users/idscomercial/Documents/Pruebas%20Atomatizadas/EjemploDulAutom/SeleniumCucumberJavaDul/src/test/resources/features/Google.feature:6)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 56058
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+sep 15, 2022 2:24:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected upstream dialect: W3C
+sep 15, 2022 2:24:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+ADVERTENCIA: Unable to find an exact match for CDP version 105, so returning the closest version found: 103
+sep 15, 2022 2:24:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFORMACIÓN: Found CDP implementation for version 105 of 103
+]]></system-err>
+</testsuite>
